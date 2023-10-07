@@ -1,0 +1,294 @@
+.navbar-dark{
+    background-color: #36312e;
+    z-index: 1;
+}
+#ticket-link {
+    color: green;
+}
+.collapse p{
+    position: relative;
+}
+
+.titulo-conf p{
+    color: white;
+    font-size: 20px;
+}
+.nav-link{
+    text-decoration: none;
+    color: white;
+}
+/*
+    imagen de fondo abajo del nav
+*/
+.imagen-fondo{
+    width:100%;
+    margin: 0%;
+    padding: 0%;
+    
+}
+.imagen-fondo img{
+    width: 100%;
+    height: auto;
+    margin-top: -15%;
+    
+} 
+.contenedor-imagen-fondo{
+            background-image: url('../source/ba1.jpg');
+            background-size: cover;
+            background-position: center;
+            color: white; /* Cambia el color del texto para que sea legible en la imagen de fondo */
+            text-align: center;
+            padding-top: 26%;
+            padding-bottom: 10%;
+            margin: 0;
+            border: 0;
+            position: relative;            
+}
+.transparencia {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.texto-transparencia{
+    padding-top: 10%;
+    padding-right: 2%;
+}
+
+.col-md-12 p{
+    text-align: right;
+    margin-right: 10%;
+    margin-left: 58%;
+    font-size: 12px;
+    
+}
+.col-md-12 h3{
+    text-align: right;
+    margin-right: 10%;
+    margin-left: 50%;
+}
+ 
+.row{
+    margin-top: -13%;
+    margin-bottom: -10%;
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+
+
+.img-fondo{
+  padding-right: 0px;
+}
+.fila-img{
+    padding-bottom: 0;
+    margin-bottom: 5%;
+    padding-right: 15px;
+}
+.fila-img img{
+    object-fit: cover;
+}
+.contenedor-fondo{
+    position: relative;
+    max-width: 100%;
+}
+.texto {
+    position: absolute;
+    /*top: 50%; /* Coloca el texto en la mitad superior del contenedor */
+    
+    transform: translate(0%, 22%); /* Centra el texto vertical y horizontalmente */
+    background-color: rgba(43, 41, 41, 0.603); /* Fondo semi-transparente para el texto */
+    
+    border: 0px ; /* Borde opcional para el texto */
+    width: 100%; /* Limita el ancho del texto para evitar que salga del contenedor */
+    font-size: 4vw;
+    height: 96%;
+    text-align: right;
+    
+    top: -17%;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 1.25rem;
+    border-radius: calc(0.25rem - 1px);
+    padding-top: 15%;
+    padding-right: 15%;
+}
+.texto h5{
+    font-size: 30px;
+}
+.texto p{
+    font-size: 12px;
+    padding-left: 46%
+}
+
+@media screen and (max-width: 768px) {
+    .texto p {
+      font-size: 8px; /* Reducir el tamaño de fuente para pantallas más pequeñas */
+    }
+    .texto h5{
+        font-size: 16px;
+    }
+    .boton {
+        font-size: 8px; /* Reducir el tamaño de fuente para pantallas más pequeñas */
+      }
+  }
+
+@media screen and (max-width: 576px) {
+    .texto p {
+      font-size: 6px; /* Reducir aún más el tamaño de fuente para pantallas más pequeñas */
+      margin-bottom: 2%;  
+    }
+    .texto h5 {
+        font-size: 14px;
+    }
+    .texto button {
+        font-size: 6px; /* Reducir aún más el tamaño de fuente para pantallas más pequeñas */
+      }
+}
+
+
+/* fin de la imagen de fondo */
+
+.texto-oradores{
+    position: relative;
+    text-align: center;
+    padding-bottom: 2%;
+} 
+.card{
+    width: 250px;
+    height: 20%;
+    margin: 8%;
+}
+ 
+/* imagen de la playa y el fondo gris */
+.col-vacia{
+    width: 20px;
+    padding:0;
+}
+.col.imagen-playa{
+    padding: 0;
+    width: 100%;
+}
+.imagen-playa{
+  
+    width: 100%;
+    padding: 0;
+}
+.fondo-gris{
+    background-color: rgb(69, 73, 82);
+    width: 100%;
+    padding:0;
+}
+.fondo-gris h2{
+    color: white;
+    padding-top: 2%;
+    font-size: 32px;
+    padding-left: 4%;
+}
+.fondo-gris p{
+    color: white;
+    padding-top: 2%;
+    font-size: 12px;
+    line-height: 2;
+    padding-left: 4%;
+}
+.fondo-gris button{
+    margin-left: 5%;
+    margin-bottom: 5% ;
+}
+.ancho-completo{
+    width: 105%;
+    height: auto;
+}
+
+/*fin de la imagen de la playa y fondo gris*/
+.potencia{
+    font-size: 0.6em; /* Tamaño de fuente más pequeño para el exponente */
+    vertical-align: super;
+}
+.texto-convertirse-oradores{
+    text-align: center;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+.col-centro{
+    text-align: center;
+    padding-top: 2%;
+    padding-bottom: 5%;
+}
+.fila-form{
+    padding-top: 12%;
+}
+.fila-comentario{
+    padding-top: 5%;
+}
+.fila-boton{
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 5%;
+}
+.incluir-titulo{
+    text-align: left;
+    padding-left: 2%;
+    color: gray;
+    font-size: 12px;
+    padding-top: 0.5%;
+}
+
+.footer {
+    text-align: center;
+    background: linear-gradient(70deg, rgba(26,54,68,255), rgba(27,82,113,255));
+    display: flex;
+    color:white;
+    flex-direction: row;
+    /* padding-left: 300px;
+    padding-right: 300px; */
+    justify-content: space-between;
+    list-style-type: none;
+    padding-top: 20px;
+    padding-bottom: 62px;
+    font-size: 20px;
+    align-items: center;
+    position: relative;
+    width: 100%;
+    margin-bottom: 0%;
+    padding-top: 84px;
+
+}
+.fila-footer{
+    padding-bottom: 0;
+    padding-left: 8%;
+    padding-right: 6%;
+    padding-top: 9%;
+}
+
+
+.condiciones {
+    width: 8%; 
+    line-height: 150%
+}
+
+.conferencias {
+    width: 7%;
+}
+
+.privacidad {
+    width: 7%;
+}
+
+.estudiantes {
+    width: 7%;
+}
+
+.prensa {
+    width: 7%;
+}
+
+.preguntas {
+    width: 7%;
+    line-height: 150%;
+    margin-top: 5px;
+}
