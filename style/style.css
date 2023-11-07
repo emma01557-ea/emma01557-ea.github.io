@@ -13,6 +13,11 @@
     color: white;
     font-size: 20px;
 }
+.titulo-conf a{
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+}
 .nav-link{
     text-decoration: none;
     color: white;

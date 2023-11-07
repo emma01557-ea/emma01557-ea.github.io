@@ -1,0 +1,29 @@
+.fila-form{
+    padding-top: 8rem;
+}
+.card{
+    height: 80%;
+}
+.fila-card{
+padding-top: 10rem;
+padding-right: 10rem;
+padding-left: 10rem;
+padding-bottom: 2rem;
+}
+.col-centro p{
+    margin-bottom: 0rem;
+}
+.fila-form{
+    padding-bottom: 2.5rem;
+}
+
+.cantidad-form {
+    display: flex;
+}
+.fila-cat{
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+.btn{
+    width: 100%;
+}
